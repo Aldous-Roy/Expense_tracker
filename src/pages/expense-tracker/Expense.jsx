@@ -4,7 +4,7 @@ import { useAddTransactions } from "../../hooks/useAddTransactions";
 const Expense = () => {
   const { addTransaction } = useAddTransactions();
   const [description, setDescription] = useState("");
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState("");
   const [type, setType] = useState("expense");
   const [successMessage, setSuccessMessage] = useState("");
 
